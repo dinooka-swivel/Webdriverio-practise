@@ -1,0 +1,146 @@
+{
+  "uid" : "c906e8466e8d4e76",
+  "name" : "should login with valid credentials",
+  "fullName" : "My Login application.should login with valid credentials",
+  "historyId" : "5440ce646e807a81f5886d8ba5ee566a",
+  "time" : {
+    "start" : 1650432357185,
+    "stop" : 1650432365846,
+    "duration" : 8661
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 10,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "My Login application"
+  }, {
+    "name" : "testClass",
+    "value" : "My Login application"
+  }, {
+    "name" : "testMethod",
+    "value" : "should login with valid credentials"
+  }, {
+    "name" : "package",
+    "value" : "My Login application"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-100.0.4896.127"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "9bd759ad418f7854",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650432337774,
+        "stop" : 1650432346198,
+        "duration" : 8424
+      }
+    }, {
+      "uid" : "9bb43039a3549b7d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650432292861,
+        "stop" : 1650432302144,
+        "duration" : 9283
+      }
+    }, {
+      "uid" : "151a8f872be28a49",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650432254341,
+        "stop" : 1650432262872,
+        "duration" : 8531
+      }
+    }, {
+      "uid" : "739984836d1ab042",
+      "status" : "broken",
+      "statusDetails" : "TestHomePage.actualPageText is not a function",
+      "time" : {
+        "start" : 1650432203537,
+        "stop" : 1650432211306,
+        "duration" : 7769
+      }
+    }, {
+      "uid" : "50a034605caa2ed5",
+      "status" : "broken",
+      "statusDetails" : "TestHomePage.actualPageText is not a function",
+      "time" : {
+        "start" : 1650432017975,
+        "stop" : 1650432025802,
+        "duration" : 7827
+      }
+    }, {
+      "uid" : "c9d38fb68a2706ab",
+      "status" : "broken",
+      "statusDetails" : "TestHomePage.actualPageText is not a function",
+      "time" : {
+        "start" : 1650431903689,
+        "stop" : 1650431912067,
+        "duration" : 8378
+      }
+    }, {
+      "uid" : "6a0848020d793dc7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650431416705,
+        "stop" : 1650431424364,
+        "duration" : 7659
+      }
+    }, {
+      "uid" : "80d5aa941fe9f471",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \".//i[@class='icon-2x icon-signou']\" because element wasn't found",
+      "time" : {
+        "start" : 1650428958434,
+        "stop" : 1650428973867,
+        "duration" : 15433
+      }
+    }, {
+      "uid" : "683d72f62ca2c89e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650425402254,
+        "stop" : 1650425407981,
+        "duration" : 5727
+      }
+    }, {
+      "uid" : "c2044a1e1167cfb6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650424912278,
+        "stop" : 1650424917909,
+        "duration" : 5631
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c906e8466e8d4e76.json",
+  "parameterValues" : [ "chrome-100.0.4896.127" ]
+}

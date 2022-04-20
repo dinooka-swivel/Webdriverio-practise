@@ -1,0 +1,8 @@
+
+
+
+JS naming conventions
+
+variable/function   : camelCase
+class               : PascalCase
+constant            : UPPERCASE

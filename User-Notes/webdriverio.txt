@@ -1,0 +1,11 @@
+
+
+Selectors
+
+id              $('#password')
+class
+xpath           $(".//i[@class='icon-2x icon-signout']");
+
+
+
+

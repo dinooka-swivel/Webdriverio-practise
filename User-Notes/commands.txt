@@ -1,0 +1,16 @@
+
+webdriverio initialization
+
+npm init -y
+npm i --save-dev @wdio/cli
+./node_modules/.bin/wdio config -y 
+
+./node_modules/.bin/wdio run wdio.conf.js
+
+npm audit fix --force
+
+Reporting - Allure
+
+npm i @wdio/allure-reporter --save-dev
+npm i -g allure-commandline --save-dev
+allure generate allure-results --clean ; allure open
