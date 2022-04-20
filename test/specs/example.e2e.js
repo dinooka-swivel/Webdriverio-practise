@@ -14,7 +14,7 @@ describe('My Login application', () => {
             'You logged into a secure area!');
         await TestHomePage.Logout();
         const expectedPageText = "You logged out of the secure area!";
-        await expect(TestHomePage.actualPageText.getText()).toBe. .toEqual(expectedPageText);
+        await expect(TestHomePage.actualPageText.getText()).toBe.toEqual(expectedPageText);
         //await assert(TestHomePage.actualPageText.getText(),expectedPageText,'Home page text is incorrect!');
         
     });
